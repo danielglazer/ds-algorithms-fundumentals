@@ -18,3 +18,12 @@ class Queue:
 
     def get_size(self):
       return len(self._queue)
+
+print("queue test")
+queue = Queue()
+queue.push(1)
+queue.push(2)
+queue.push(3)
+queue.push(4)
+queue.push(5)
+print(f"peek first {queue.pop()}")
