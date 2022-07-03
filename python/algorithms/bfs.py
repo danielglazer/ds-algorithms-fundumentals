@@ -3,7 +3,7 @@ from collections import deque
 graph = {
   'A': set('B'),
   'B': set('C'),
-  'D': set(['G', 'C']),
+  'D': {'G', 'C'},
   'G': set('A'),
   'C': set('C')
 }
